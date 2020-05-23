@@ -1,20 +1,85 @@
-@font-face{
-    font-family:'Roboto';
-    src: url('../fonts//Roboto-Black.ttf');
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts//Roboto-Black.ttf");
 }
 
-@font-face{
-    font-family: 'Segoe';
-    src: url('../fonts/Segoe.ttf');
+@font-face {
+  font-family: "Segoe";
+  src: url("../fonts/Segoe.ttf");
 }
 
-
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-h2{
-    font-family: 'Segoe';
+.header {
+  /* flex */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex */
+
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  background-color: #142850;
 }
 
+.header__logo {
+}
+
+.header__logo h2 {
+  color: #fff;
+  font-family: "Segoe", "Roboto";
+}
+
+.header__navbar {
+  flex-basis: 40%;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__navigation-item {
+  font-family: "Segoe", "Roboto";
+  list-style: none;
+}
+
+.header__navigation-item a {
+  color: #fff;
+  text-decoration: none;
+  transition: 300ms all ease;
+}
+
+.header__navigation-item a:hover {
+  color: #dae1e7;
+}
+
+.container {
+  display: flex;
+}
+
+.container__main {
+  min-height: 800px;
+  width: 70%;
+  background-color: #142850;
+  border-right: 2px solid #ccc;
+}
+
+.container__main-cWatching {
+}
+
+.container__main-recommended {
+}
+
+.container__main-recommended-item {
+}
+
+.container__sidebar {
+  display: flex;
+  min-height: 800px;
+  width: 30%;
+  background-color: #142850;
+}
