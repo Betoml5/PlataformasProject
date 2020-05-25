@@ -25,8 +25,6 @@
   background-color: #142850;
 }
 
-
-
 .header__logo h2 {
   color: #fff;
   font-family: "Segoe", "Roboto";
@@ -54,18 +52,16 @@
 
 .header__navigation-item a:hover {
   color: #dae1e7;
+ 
 }
 
 .container {
   display: flex;
 }
 
-
-
 .container__main__both {
   display: flex;
   flex-direction: row;
-
 
   min-height: 800px;
   width: 75%;
@@ -73,21 +69,18 @@
   border-right: 2px solid #ccc;
 }
 
-.container__main__both-1{
-
+.container__main__both-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-right: 1px solid #ccc;
 
-  
   width: 50%;
   min-height: 400px;
-  
 }
 
-.container__main__both-1-cWatching-c{
+.container__main__both-1-cWatching-c {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -95,152 +88,233 @@
   background-color: #dae1e7;
   padding: 30px;
   border-radius: 36px;
-  height:60%;
+  height: 60%;
 }
 
-.container__main__both-1-cWatching h3,p{
+.container__main__both-1-cWatching h3,
+p {
   color: #000;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   padding: 6px;
 }
 
-.container__main__both-1-cWatching > a{
+.container__main__both-1-cWatching a {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
   padding: 20px;
   border-radius: 36px;
   background-color: #142850;
-  border: 1px solid #dae1e7;
+  transition: 300ms all ease;
 }
-.container__main__both-1-title{
+
+.container__main__both-1-cWatching a:hover{
+  box-shadow: 3px 5px 0 rgba(255, 255, 255, 0.3);
+}
+
+.container__main__both-1-title {
   display: flex;
   justify-content: center;
   height: 30%;
 }
 
-.container__main__both-1-title div h2{
+.container__main__both-1-title div h2 {
   font-size: 36px;
   color: #fff;
-  font-family: 'Segoe', 'Roboto';
+  font-family: "Segoe", "Roboto";
 }
 
-.container__main__both-2-title{
+.container__main__both-2-title {
   display: flex;
   justify-content: center;
   height: 30%;
-  
 }
 
-.container__main__both-2-title div h2{
+.container__main__both-2-title div h2 {
   font-size: 36px;
   color: #fff;
-  font-family: 'Segoe', 'Roboto';
+  font-family: "Segoe", "Roboto";
 }
 
-.container__main__both-2{
-
+.container__main__both-2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 50%;
   min-height: 400px;
-
 }
 
-.container__main__both-2-recomend{
+.container__main__both-2-recomend {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  
 }
 
-.container__main__both-2-recomend-item{
-  background-color: red;
+.container__main__both-2-recomend-item {
+  background-color: #142850;
+  border-bottom: 2px solid #ccc;
   width: 45%;
   min-height: 250px;
   margin: 10px;
   border-radius: 36px;
+
+  transition: all ease 300ms;
 }
 
+.container__main__both-2-recomend-item:hover {
+    transform: scale(1.1);
+}
 
+.container__main__both-2-recomend-item a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.F {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.container__main__both-2-recomend-item img {
+  border-radius: 36px 36px 0 0;
+  height: 240px;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+}
 
 .container__sidebar {
-  
   min-height: 800px;
   width: 25%;
   background-color: #142850;
 }
 
-.container__sidebar-profilePic{
+.container__sidebar-profilePic {
   margin-top: 50px;
   text-align: center;
- margin-bottom: 500px;
+  margin-bottom: 500px;
 }
 
-.container__sidebar-profilePic img{
-  
+.container__sidebar-profilePic img {
   border-radius: 999px;
   width: 150px;
   height: 150px;
 }
 
-
-
-.container__sidebar-list ul{
+.container__sidebar-list ul {
   list-style: none;
   padding-left: 20px;
-  
 }
 
-.container__sidebar-list ul li{
+.container__sidebar-list ul li {
   font-size: 24px;
 }
 
-.container__sidebar-list ul li a{
+.container__sidebar-list ul li a {
   text-decoration: none;
   color: #fff;
   transition: 300ms all ease;
-  
 }
 
-.container__sidebar-list ul li a:hover{
+.container__sidebar-list ul li a:hover {
   color: #dae1e7;
-
-  
 }
 
-
-.footer{
+.footer {
   display: flex;
   padding: 14px;
   border-top: 2px solid #ccc;
   background-color: #142850;
 }
 
-.footer__list{
-display: flex;
-flex-basis: 40%;
-justify-content: space-evenly;
+.footer__list {
+  display: flex;
+  flex-basis: 40%;
+  justify-content: space-evenly;
 }
 
-.footer__list a{
+.footer__list a {
   font-size: 20px;
   text-decoration: none;
   color: #fff;
   transition: 300ms all ease;
 }
 
-
-.footer__list a:hover{
-color: #dae1e7;
+.footer__list a:hover {
+  color: #dae1e7;
 }
 
-.F{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15pt;
-  text-align: center;
-  color: white;
-  text-decoration: none;
+.container__main__both-2-btn {
+  width: 50%;
+  margin-top: 115px;
+  display: none;
+}
+
+.container__main__both-2-btn button {
+  font-family: "Segoe";
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 36px;
+  width: 100%;
+  border: none;
+  box-shadow: 3px 5px 0px rgba(255, 255, 255, 0.3);
+  transition: 300ms all ease;
+  cursor: pointer;
+}
+
+.container__main__both-2-btn button:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*MEDIA QUERIES NO LE MUEVAN A ESTO xd*/
+
+@media screen and (max-width: 1700px) {
+  .F {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  .container__main__both-1-cWatching-c {
+    height: 55%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .F {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+   
+  .container__main__both-2-recomend-item img {
+    height: 134px;
+    margin-bottom: 30px;
+  }
+  .container__main__both-2-recomend-item {
+    min-height: 243px;
+    width: 40%;
+  }
+
+  .F {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1046px) {
+  .container__main__both-2-title div h2 {
+    font-size: 28px;
+    
+}
+
+.container__main__both-1-title div h2 {
+  font-size: 28px;
+}
+
 }
