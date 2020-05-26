@@ -191,6 +191,8 @@ p {
   min-height: 800px;
   width: 25%;
   background-color: #142850;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .container__sidebar-profilePic {
