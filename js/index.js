@@ -5,11 +5,13 @@
   async function getUsers(url) {
     const response = await fetch(url);
     const data = await response.json();
-    console.log(data);
+    console.log(data)
     return data;
   }
 
   getUsers(urlUsers);
+  getUsers('https://source.unsplash.com/random/?river,park')
+
 
   function profileTemplate(user) {
     return `
@@ -36,8 +38,7 @@
     });
   }
 
-  const { results: userList 
-    } = await getUsers(`${urlUsers}`);
+  const { results: userList } = await getUsers(`${urlUsers}`);
 
   renderProfilePic(userList, $containerSidebar);
 })();
